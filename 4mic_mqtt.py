@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/pi/usb_4_mic_array-master_edited4raspi/bin/python3
 # -*- coding: utf-8 -*-
 
 import usb.core
@@ -14,7 +14,7 @@ import paho.mqtt.client as mqtt
 # ------------------------------------------------------------------------------
 # 1. グラフ描画の有無 & MQTT 情報
 # ------------------------------------------------------------------------------
-DRAW_GRAPHICS = false
+DRAW_GRAPHICS = False
 
 MQTT_BROKER = "192.168.1.238"
 MQTT_PORT   = 1883
